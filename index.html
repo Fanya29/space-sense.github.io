@@ -1,23 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Landing Page</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-<div class="block" id="project-name">
-<h1>Название проекта: My Dream Store</h1>
-</div>
-<div class="block" id="about-project">
-<p>О проекте: Мы предлагаем широкий ассортимент товаров для твоего комфорта и уюта. Здесь ты найдешь все, что нужно для создания уютного дома и стильного образа. Мы следим за последними трендами и постоянно обновляем наш ассортимент.</p>
-</div>
-<div class="block" id="shop">
-<p>Магазин: В нашем магазине вы найдете мебель, текстиль, декорации, аксессуары, косметику и многое другое. Мы сотрудничаем с лучшими поставщиками и брендами, чтобы удовлетворить все ваши потребности.</p>
-</div>
-</div>
-<script src="script.js"></script>
+    <div class="container">
+        <h1>Каталог товаров</h1>
+        <div class="product">
+            <h2>Устройство для ориентирования незрячих в пространстве (внешний аккумулятор)</h2>
+            <p>Описание товара. Внешний аккумулятор. Цена: 1000 руб.</p>
+            <a href="#">Купить</a>
+        </div>
+        <div class="product">
+            <h2>Устройство для ориентирования незрячих в пространстве (встроенный аккумулятор)</h2>
+            <p>Описание товара. Встроенный аккумулятор. Цена: 1200 руб.</p>
+            <a href="#">Купить</a>
+        </div>
+    </div>
 </body>
 </html>
